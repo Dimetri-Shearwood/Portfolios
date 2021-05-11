@@ -7553,7 +7553,7 @@ button.bg-dark:focus {
 }
 
 .mb-1 {
-  color: #a0201e;
+  color: #393d3f;
   /* text-shadow: -.7px -.7px 0 #000, .7px -.7px 0 #000, -.7px .7px 0 #000, .7px .7px 0 #000; */
   text-shadow: 2px 1px  black;
 
@@ -10220,10 +10220,11 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 50%), url("../assets/img/Pics-for-Portfolio/net-chip3.jpeg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 50%), url("https://image.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  image-rendering: auto;
 }
 .masthead h1 {
   font-size: 4rem;
