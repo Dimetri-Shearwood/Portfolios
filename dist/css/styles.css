@@ -10263,11 +10263,11 @@ footer.footer .social-link:hover {
   bottom: 0;
   z-index: 1;
 }
-.portfolio-item .caption .caption-content {
+.portfolio-item .caption:hover .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
 }
-.portfolio-item .caption .caption-content h2 {
+.portfolio-item .caption:hover .caption-content h2 {
   font-size: 0.8rem;
   text-transform: uppercase;
   
@@ -10289,12 +10289,14 @@ footer.footer .social-link:hover {
     -webkit-clip-path: inset(0px);
             clip-path: inset(0px);
   }
-  .portfolio-item .caption .caption-content {
+  .portfolio-item .caption .caption-content{
+    color: transparent;
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
+
   .portfolio-item img {
     transition: -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out;
@@ -10310,8 +10312,7 @@ footer.footer .social-link:hover {
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
-            clip-path: inset(2rem);
-            
+            clip-path: inset(2rem);  
   }
 }
 
